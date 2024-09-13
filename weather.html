@@ -1,0 +1,36 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="weather.css">
+  <title>Weather Clone</title>
+</head>
+
+<body>
+  <main>
+    <div class="row">
+
+      <form action="">
+        <input type="search" id="search" placeholder="search by Location">
+      </form>
+
+    </div>
+
+    <div class="row" id="weather"></div>
+    <h2 class="h2con"><span>Weather</span> Converter</h2>
+    <form id="converterForm" onsubmit="return false;">
+      <label for="tempCelsius" class="label1">Temperature in <span>Celsius:</span></label>
+      <input id="tempCelsius" class="tempCelsius" placeholder="Enter temperature in Celsius" required>
+      <button type="submit" class="sbtn">Convert</button>
+    </form>
+    <p id="convertedTemperature"></p>
+    </div>
+
+  </main>
+  <script src="weather.js"></script>
+</body>
+
+</html>

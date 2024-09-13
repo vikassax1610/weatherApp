@@ -1,0 +1,104 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  
+}
+main{
+  height:100%;
+  height:100vh;
+  background:#16a085;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  
+}
+.row{
+width:1000px;
+margin:10px;
+display:flex;
+justify-content:center;
+  align-items:center;
+
+font-size:32px;
+color:#fff;
+
+}
+ #search{
+  font-size:25px;
+  border:0;
+  padding:10px;
+  border-radius:25px;
+  outline:none;
+ 
+  transition: all 0.5ms ease-in-out;
+}
+
+#converterForm {
+  margin-top:20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#converterForm label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+#converterForm input[type="number"] {
+  width: auto;
+  max-width: 150px;
+}
+
+#convertedTemperature {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #666;
+}
+.label1{
+  font-size:20px;
+  font-weight:600;
+}
+.label1 span{
+  background: yellow;
+}
+.tempCelsius{
+  box-sizing: border-box;
+  max-width: 400px;
+  height:40px;
+  border:none;
+  outline:0;
+  border-radius:4px;
+  width:100%;
+  margin-left:10px;
+  margin-right:10px;
+  padding:0 30px;
+  font-size:25px;
+}
+.sbtn{
+  font-size:20px;
+  font-weight:600;
+  border:none;
+  outline:0;
+  padding:10px 20px;
+  cursor:pointer;
+  border-radius: 10px;
+}
+#convertedTemperature{
+  color:rgb(167, 226, 19);
+  font-size:30px;
+  font-weight:700;
+  border-bottom:2px solid red;
+}
+.h2con{
+  margin-top:10px;
+  border-bottom:4px solid black;
+}
+.h2con span{
+  color:red;
+}
+.sbtn:hover{
+  color:blue;
+  background:green;
+}
